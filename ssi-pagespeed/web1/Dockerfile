@@ -7,4 +7,5 @@ RUN mkdir -p /var/ngx_pagespeed_cache
 COPY nginx.conf /etc/nginx/
 ADD index.html /usr/share/nginx/html/web1/index.html
 ADD index.css /usr/share/nginx/html/web1/index.css
+ADD app.png /usr/share/nginx/html/web1/app.png
 EXPOSE 80
