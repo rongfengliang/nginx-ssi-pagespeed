@@ -5,3 +5,7 @@
     width: 770px;
     height: 350px;
 }
+
+*  {
+    background-color: aqua;
+}
