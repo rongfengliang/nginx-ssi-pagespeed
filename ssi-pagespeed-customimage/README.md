@@ -1,5 +1,7 @@
 # nginx ssi demo with pagespeed
 
+use openresty base image
+
 ## difference parts
 
 ```diff
