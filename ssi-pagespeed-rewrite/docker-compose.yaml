@@ -1,0 +1,19 @@
+version: "3"
+services:
+  main:
+    build: ./
+    ports:
+    - "8080:80"
+  web1:
+    build: 
+      context: ./web1
+    ports:
+    - "8180:80"
+  web2:
+    build: 
+      context: ./web2
+    ports:
+    - "8181:80"
+
+
+
