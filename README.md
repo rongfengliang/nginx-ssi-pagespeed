@@ -7,4 +7,3 @@
 [ssi-pagespeed](./ssi-pagespeed/README.md)
 
 [ssi-pagespeed-rewrite](./ssi-pagespeed-rewrite/README.md)
-
