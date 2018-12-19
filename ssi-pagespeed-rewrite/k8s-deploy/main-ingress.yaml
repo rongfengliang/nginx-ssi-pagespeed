@@ -1,0 +1,13 @@
+kind: Ingress
+apiVersion: extensions/v1beta1
+metadata:
+  name: main-ssi
+spec:
+  rules:
+  - host: <ingress-host>
+    http:
+      paths:
+      - backend:
+          serviceName: main
+          servicePort: 8080
+        path: /
